@@ -1,1 +1,16 @@
-/* You can add global styles to this file, and also import other style files */
+:root {
+  --white: #f2f2f2;
+  --color-line: #656565;
+  --background-color: #333333;
+  --blue-color: #2b80d0;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: radial-gradient(circle, #838383, #61778b 100%);
+}

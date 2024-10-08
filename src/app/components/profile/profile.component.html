@@ -1,0 +1,5 @@
+<img src="profile_default.jpg" alt="Profile"> <!-- Colocar minha foto de perfil -->
+<h2>Minhas Skills</h2>
+@for (skill of skills; track $index) {
+<app-skills [name]="skill.name" [fill]="skill.fill" />
+}
